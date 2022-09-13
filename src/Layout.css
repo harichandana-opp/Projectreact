@@ -1,0 +1,68 @@
+:root{
+    /* --primary:#283048;
+     --secondary:#859398;*/
+     --primary:#BBD2C5;
+     --secondary:#536976;
+ }
+ 
+ .lay{
+     position: absolute;
+     top:120%;
+     
+ }
+ .container{
+    position: absolute;
+    left: 16%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    height:70%;
+    color:white;
+    width: 70%;
+    top:120%;
+    
+  }
+  .container div{
+    
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: black;
+    }
+    .box img{
+        position: relative;
+        left: 33%;
+        height: 35%;
+        width: 35%;
+    }
+    .box h2{
+        text-align: center;
+    }
+    .container .box:hover{
+        position: relative;
+        background-color: gainsboro;
+        border-radius: 10px;
+        box-shadow: 5px 10px 18px darkgrey;
+        height:105%;
+        width: 100%;
+    }
+    .box a{
+        position: relative;
+        text-decoration: none;
+        left: 35%;
+        top:100px;
+        width: 30%;
+        height: 5%;
+        text-align:center ;
+        border-color: black;
+        border-style: solid;
+        border-radius: 20px;
+        color: black;
+        /*color: white;
+        background-color:black;*/
+    }
+    .box a:hover{
+        width: 30%;
+        background-color: black;
+        color: gainsboro;
+    }
+   
